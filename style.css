@@ -1,5 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Shadows+Into+Light&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+body{
+  background-color: black;
+  height: 100vh;
+}
+nav{
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: rgba(255, 255, 255, 0.183);
+border-bottom: 1px solid white;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 5vw;
+}
+.logo>span{
+  font-size: 35px;
+  font-weight: 400;
+  width: 20px;
+  letter-spacing: 0px;
+  line-height: 30px;
+  /* font-family: 'Shadows Into Light', cursive; */
+  font-family: 'Grape Nuts', cursive;
+
+}
+.logo>img{
+  width: 100px;
 }
